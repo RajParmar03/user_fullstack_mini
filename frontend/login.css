@@ -1,0 +1,19 @@
+.login{
+    margin-top: 25px;
+}
+.login h1{
+    text-align: center;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    padding:  10px;
+    text-align: center;
+    width: 40%;
+    margin: 20px auto auto auto;
+}
+.login input , .login label{
+    margin-bottom: 5px;
+    padding: 5px;
+}

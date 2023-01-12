@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Components/Navbar.css">
+    <link rel="stylesheet" href="./signup.css">
+    <title>Sign-Up Page</title>
+</head>
+<body>
+    <div class="navbar">
+        <div id="homebtn" onclick=homeredirector()>
+            Home Page
+        </div>
+        <div id="aboutBtn" onclick=aboutRedirector()>
+            About Page
+        </div>
+        <div id="signupBtn" onclick=signupRedirector()>
+            Sign-Up page
+        </div>
+        <div id="loginBtn" onclick="loginRedirector()">
+            Login Page
+        </div>
+    </div>
+    <div class="signup">
+        <h1>This is Sign Up Page.</h1>
+        <form id="signForm">
+   
+            <label>
+                UserName : 
+                <input type="text" id="username" placeholder="Enter the username">
+            </label>
+            <label>
+                Email : 
+                <input type="text" id="email" placeholder="Enter the email">
+            </label>
+            <label>
+                DOB : 
+                <input type="text" id="DOB" placeholder="Enter the DOB">
+            </label>
+            <label>
+                Location : 
+                <input type="text" id="location" placeholder="Enter the location">
+            </label>
+            <label>
+                Password : 
+                <input type="text" id="password" placeholder="Enter the password">
+            </label>
+            <label>
+                Confirm Password : 
+                <input type="text" id="conPass" placeholder="Enter the password again">
+            </label>
+            <input type="submit" value="Sign Up" />
+        </form>
+    </div>
+</body>
+<script src="navbar.js"></script>
+<script src="signup.js"></script>
+
+</html>

@@ -1,0 +1,16 @@
+.signup{
+    text-align: center;
+    margin-top: 25px;
+}
+.signup form{
+    display: flex;
+    flex-direction: column;
+    padding:  10px;
+    text-align: center;
+    width: 40%;
+    margin: 20px auto auto auto;
+}
+.signup input , .signup label{
+    margin-bottom: 5px;
+    padding: 5px;
+}

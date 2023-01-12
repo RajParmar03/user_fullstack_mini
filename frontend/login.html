@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Components/Navbar.css">
+    <link rel="stylesheet" href="./login.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="navbar">
+        <div id="homebtn" onclick=homeredirector()>
+            Home Page
+        </div>
+        <div id="aboutBtn" onclick=aboutRedirector()>
+            About Page
+        </div>
+        <div id="signupBtn" onclick=signupRedirector()>
+            Sign-Up page
+        </div>
+        <div id="loginBtn" onclick="loginRedirector()">
+            Login Page
+        </div>
+    </div>
+    <div class="login">
+        <h1>This is Login Page.</h1>
+        <form id="loginForm">
+            <label>
+                UserName : 
+                <input type="text" id="username" placeholder="Enter the username" />
+            </label>
+            <label>
+                Password : 
+                <input type="text" id="password" placeholder="Enter the password">
+            </label>
+            <input type="submit" value="Login" />
+        </form>
+    </div>
+</body>
+<script src="navbar.js"></script>
+<script src="login.js"></script>
+
+</html>
